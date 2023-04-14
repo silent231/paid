@@ -38,8 +38,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FallenPhantomRisen/Ph
 loadstring(game:HttpGet("https://raw.githubusercontent.com/silent231/private5/main/verloxpaid"))()
 else if game.PlaceId == 7952502098 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/silent231/verlox/main/paidverison"))()
-else
-loadstring(game:HttpGet("https://raw.githubusercontent.com/silent231/private5/main/verloxpaid"))()
+else if game.PlaceId == 3527629287 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/radjahfromdiscord/iNEXT/main/source"))()
+else 
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/silent231/private5/main/verloxpaid"))()
+end
 end
 end
 end
